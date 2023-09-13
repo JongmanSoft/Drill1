@@ -13,3 +13,12 @@ def move(a):
     turtle.stamp()
 def reset():
     turtle.reset()
+
+turtle.shape('turtle')
+turtle.onkey(move(0),'d')
+turtle.onkey(move(1),'s')
+turtle.onkey(move(2),'a')
+turtle.onkey(move(3),'w')
+turtle.onkey(reset,'Escape')
+turtle.listen()
+
